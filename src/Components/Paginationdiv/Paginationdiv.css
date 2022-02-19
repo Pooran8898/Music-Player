@@ -1,0 +1,47 @@
+.paginationContainer {
+    width: 90%;
+    margin: auto;
+}
+
+.resultsContainer {
+width: 100%;
+margin: auto;
+}
+
+.resultsDiv {
+  width: 100%;
+}
+
+.paginationDiv {
+width: 100%;
+display: flex;
+align-items: center;
+font-size: 1.5rem;
+}
+
+.paginationDiv > svg {
+  font-size: 2.3rem;
+  margin: 0% 1%;
+}
+
+.eachAlbumContainer {
+  display: inline-block;
+  margin: 1% 1.5%;
+  padding: 2% 2% 1% 2%;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px rgb(204, 202, 202);
+}
+
+.eachAlbumContainer > img {
+   height: 21vh;
+   width: 11vw;
+   border-radius: 15px;
+}
+
+.eachAlbumContainer > h4 {
+  padding: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
